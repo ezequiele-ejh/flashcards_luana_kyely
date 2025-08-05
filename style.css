@@ -1,4 +1,6 @@
 body{
-    background-color: rgb(240, 230, 140);
-  color: cadetblue;  
+    background-color: rgba(240, 230, 140, 0.712);
+  color: cadetblue;
+ font-family: monospace;
+ font-size: medium;
 }
