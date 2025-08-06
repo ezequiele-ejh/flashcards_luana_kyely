@@ -1,6 +1,6 @@
 body{
     background-color: rgba(226, 226, 226, 0.712);
   color: cadetblue;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-family: inherit;
  font-size: medium;
 }
