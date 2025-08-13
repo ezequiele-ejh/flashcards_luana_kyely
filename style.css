@@ -18,7 +18,7 @@ footer p {
   margin-top: 0.6rem;
 }
 :root{
-  --texte-color:#000000;
-  --card-front-color:#000000;
-  --card-back-color:#000000; 
+  --texte-color:#ee0000;
+  --card-front-color:#eba4a4;
+  --card-back-color:#e48686; 
 }
