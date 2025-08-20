@@ -18,9 +18,9 @@ footer p {
   margin-top: 0.6rem;
 }
 :root{
-  --texte-color:#f962ea98;
-  --card-front-color:#b932e2;
-  --card-back-color:#dc86e4; 
+  --texte-color:#10010ed1;
+  --card-front-color:#520a68;
+  --card-back-color:#d996e0; 
 }
 #container{
   display: flex;
@@ -46,6 +46,14 @@ footer p {
   position: absolute;
   margin: 0.6rem;
   border-radius: 0.6rem;
-  font-size: 1vw;
+  font-size: 5vw;
   backface-visibility: hidden;
+} 
+.cartao-conteudo-pergunta p{
+  color: var(--card-front-color);
+  font-weight: 500;
+}
+.cartao-conteudo-resposta p{
+  color: var(--card-back-color);
+  font-weight: 700;
 }
