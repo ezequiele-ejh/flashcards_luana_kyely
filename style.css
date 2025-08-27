@@ -57,3 +57,20 @@ footer p {
   color: var(--card-back-color);
   font-weight: 700;
 }
+.cartao:houver .cartao-conteudo{
+  transform: rotateY(180deg);
+}
+.cartao-conteudo-pergunta,
+.cartao-conteudo-resposta{
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.cartao-conteudo-resposta{
+  transform: rotateY(180deg);
+}
+.cartao-conteudo p{
+  margin-top: 1rem;
+  padding: 2rem;
+}
